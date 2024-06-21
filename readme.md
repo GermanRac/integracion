@@ -1,9 +1,11 @@
-Recursos utilizados: 
-Url de flujo en powerautomate : ms-powerautomate:/console/flow/run?environmentid=Default-585a4d92-db1d-4bbb-b5ac-c5299e3894e3&workflowid=992599a4-54fa-4935-8879-0b2daeca208d&source=Other
-Id del flujo : 992599a4-54fa-4935-8879-0b2daeca208d
-Api utilizada : https://rickandmortyapi.com/documentation/#get-all-characters
-Base de Datos PostgreSQL 15 
-Procedimiento almacenado implementado en base de datos : SistInvFact
+##Recursos utilizados: 
+#Url de flujo en powerautomate : ms-powerautomate:/console/flow/run?environmentid=Default-585a4d92-db1d-4bbb-b5ac-c5299e3894e3&workflowid=992599a4-54fa-4935-8879-0b2daeca208d&source=Other
+#Id del flujo : 992599a4-54fa-4935-8879-0b2daeca208d
+#Api utilizada : https://rickandmortyapi.com/documentation/#get-all-characters
+#Base de Datos PostgreSQL 15 
+-Procedimiento almacenado implementado en base de datos : SistInvFact
+#==
+    
     CREATE OR REPLACE PROCEDURE disminuir_inventario(
     p_idproducto INTEGER,
     p_cantidad INTEGER
